@@ -1,4 +1,4 @@
-FROM node:alpaine as builder
+FROM node:alpine as builder
 WORKDIR /app
 ADD package*.json ./
 RUN npm ci
